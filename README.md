@@ -6,4 +6,4 @@ The Museum depends on:
     - which depends on `flix/museum-clerk`
 - `flix/museum-giftshop`
 - `flix/museum-restaurant`
-    - which depends on `org.apache.commons:commons-lang3".
+    - which depends on `org.apache.commons:commons-lang3`.
