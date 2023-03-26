@@ -1,3 +1,4 @@
-// The main entry point.
-def main(): Unit \ IO =
-    println("Hello World!")
+def main(): Unit \ IO = 
+    Entrance.buyTicket();
+    Restaurant.buyMeal();
+    Giftshop.buyGift()

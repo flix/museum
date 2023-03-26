@@ -1,11 +1,11 @@
 [package]
 name        = "museum"
 description = "test"
-version     = "1.0.0"
+version     = "1.1.0"
 flix        = "0.34.0"
 authors     = ["John Doe <john@example.com>"]
 
 [dependencies]
-"github:flix/museum-entrance"   = "1.0.0"
-"github:flix/museum-giftshop"   = "1.0.0"
-"github:flix/museum-restaurant" = "1.0.0"
+"github:flix/museum-entrance"   = "1.2.0"
+"github:flix/museum-giftshop"   = "1.1.0"
+"github:flix/museum-restaurant" = "1.1.0"
