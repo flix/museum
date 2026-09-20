@@ -14,14 +14,14 @@ The five packages live in separate repositories:
 | `flix/museum-clerk` | Welcomes visitors through `Clerk.welcomeVisitor()` and provides the shared `Clerk.work()` function. |
 | `flix/museum-restaurant` | Buys a meal and declares a Maven dependency on Apache Commons Lang. |
 
-For museum `2.1.2`, the dependency graph selects these package versions. The
+For museum `3.0.0`, the dependency graph selects these package versions. The
 clerk edges show each consumer's minimum requirement:
 
 ```mermaid
 flowchart TD
-    M["museum 2.1.2"] --> E["museum-entrance 2.0.1"]
+    M["museum 3.0.0"] --> E["museum-entrance 2.0.1"]
     M --> G["museum-giftshop 2.0.1"]
-    M --> R["museum-restaurant 2.0.1"]
+    M --> R["museum-restaurant 2.0.2"]
     M -->|requires 2.1.2| C["museum-clerk 2.1.2"]
     E -->|requires 2.1.1| C
     G -->|requires 2.1.1| C

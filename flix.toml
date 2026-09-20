@@ -1,5 +1,5 @@
 [package]
-version     = "2.1.2"
+version     = "3.0.0"
 flix        = "0.76.2"
 repository  = "github:flix/museum"
 
@@ -7,4 +7,4 @@ repository  = "github:flix/museum"
 "github:flix/museum-clerk"      = { version = "2.1.2", mount = "clerk" }
 "github:flix/museum-entrance"   = { version = "2.0.1", mount = "entrance" }
 "github:flix/museum-giftshop"   = { version = "2.0.1", mount = "giftshop" }
-"github:flix/museum-restaurant" = { version = "2.0.1", mount = "restaurant", security = "unrestricted" }
+"github:flix/museum-restaurant" = { version = "2.0.2", mount = "restaurant", security = "unrestricted" }
