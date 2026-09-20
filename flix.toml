@@ -1,11 +1,10 @@
 [package]
-name        = "museum"
-version     = "2.1.0"
+version     = "2.1.1"
 flix        = "0.76.2"
 repository  = "github:flix/museum"
 
 [dependencies]
-"github:flix/museum-clerk"      = { version = "2.1.0", mount = "clerk" }
-"github:flix/museum-entrance"   = { version = "2.0.0", mount = "entrance" }
-"github:flix/museum-giftshop"   = { version = "2.0.0", mount = "giftshop" }
-"github:flix/museum-restaurant" = { version = "2.0.0", mount = "restaurant", security = "unrestricted" }
+"github:flix/museum-clerk"      = { version = "2.1.1", mount = "clerk" }
+"github:flix/museum-entrance"   = { version = "2.0.1", mount = "entrance" }
+"github:flix/museum-giftshop"   = { version = "2.0.1", mount = "giftshop" }
+"github:flix/museum-restaurant" = { version = "2.0.1", mount = "restaurant", security = "unrestricted" }
