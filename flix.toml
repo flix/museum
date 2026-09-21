@@ -4,7 +4,7 @@ flix        = "0.76.2"
 repository  = "github:flix/museum"
 
 [dependencies]
-"github:flix/museum-clerk"      = { version = "2.1.2", mount = "clerk" }
+"github:flix/museum-clerk"      = { version = "2.1.3", mount = "clerk" }
 "github:flix/museum-entrance"   = { version = "2.0.2", mount = "entrance" }
 "github:flix/museum-giftshop"   = { version = "2.0.2", mount = "giftshop" }
 "github:flix/museum-restaurant" = { version = "2.0.2", mount = "restaurant", security = "unrestricted" }

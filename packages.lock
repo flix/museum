@@ -3,7 +3,10 @@ version = 1
 
 [packages."github:flix/museum-clerk"."2.1.2"]
 toml    = "sha256:8dc56b5b992d348ce09ace7b4faad00eb81b8803a02ffa2f18051bda93d800de"
-fpkg    = "sha256:db476c35d730a46bfa3d1e1826846b2a583773e1aef30c11fb8b350744bc411e"
+
+[packages."github:flix/museum-clerk"."2.1.3"]
+toml    = "sha256:6f34418fffc6c8d5614f32c1f904dbed385bc00e9ac7692e9cbe277fed54f66d"
+fpkg    = "sha256:f7817d79093be36bcf9bf1ed66fa920d1e6eab6b1ac3759c1cc6581568b6ff8b"
 
 [packages."github:flix/museum-entrance"."2.0.2"]
 toml    = "sha256:ea0822cb62bc221aa75a539422aed3ea79ec72cd0e7f78f39ab2e915257ad87c"
