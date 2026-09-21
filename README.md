@@ -16,13 +16,13 @@ The five packages live in separate repositories:
 
 ## Dependency graph
 
-For museum `3.0.1`, the dependency graph selects these package versions. The
+For museum `4.0.0`, the dependency graph selects these package versions. The
 clerk edges show each consumer's minimum requirement, and the restaurant edge
 shows the security context museum grants it:
 
 ```mermaid
 flowchart TD
-    M["museum 3.0.1"] --> E["museum-entrance 2.0.2"]
+    M["museum 4.0.0"] --> E["museum-entrance 2.0.2"]
     M --> G["museum-giftshop 2.0.2"]
     M -->|unrestricted| R["museum-restaurant 2.0.2"]
     M -->|requires 2.1.3| C["museum-clerk 2.1.3"]
@@ -54,7 +54,7 @@ To use the museum from another Flix project, add it to that project's
 
 ```toml
 [dependencies]
-"github:flix/museum" = { version = "3.0.1", mount = "museum", security = "unrestricted" }
+"github:flix/museum" = { version = "4.0.0", mount = "museum", security = "unrestricted" }
 ```
 
 Then import `Museum` through the `museum` mount:
@@ -119,6 +119,9 @@ dependency used by this package.
 The compiler maintains [`packages.lock`](packages.lock), recording SHA-256
 digests of dependency manifests it reads and package archives it downloads.
 Version selection follows the manifest requirements; the lockfile verifies
-artifact contents. It records clerk `2.1.2`, entrance `2.0.2`, gift shop
+artifact contents. It records clerk `2.1.3`, entrance `2.0.2`, gift shop
 `2.0.2`, and restaurant `2.0.2`, each with both a `toml` and an `fpkg` digest.
-The Maven dependency on Apache Commons Lang is not recorded there.
+It also records only a `toml` digest for clerk `2.1.2`: the compiler reads that
+manifest because entrance and gift shop require it, but downloads only the
+selected clerk `2.1.3` archive. The Maven dependency on Apache Commons Lang is
+not recorded there.
