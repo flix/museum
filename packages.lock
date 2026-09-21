@@ -1,20 +1,17 @@
 [lock]
 version = 1
 
-[packages."github:flix/museum-clerk"."2.1.1"]
-toml    = "sha256:04efd411a1d250c4aa7d2441254e228a6350a07a8d70ca778de027698c78b3fd"
-
 [packages."github:flix/museum-clerk"."2.1.2"]
 toml    = "sha256:8dc56b5b992d348ce09ace7b4faad00eb81b8803a02ffa2f18051bda93d800de"
 fpkg    = "sha256:db476c35d730a46bfa3d1e1826846b2a583773e1aef30c11fb8b350744bc411e"
 
-[packages."github:flix/museum-entrance"."2.0.1"]
-toml    = "sha256:1a6e116edd2251a064328a70cf8dbd858f132244ffee4f502463601974d9d18e"
-fpkg    = "sha256:8a875c79826a49920232aff78eb41b80f6eee2b56c99d7fa675cbd5ea24d1852"
+[packages."github:flix/museum-entrance"."2.0.2"]
+toml    = "sha256:ea0822cb62bc221aa75a539422aed3ea79ec72cd0e7f78f39ab2e915257ad87c"
+fpkg    = "sha256:7f0ffe9097e018b3be644099c6b9b2df99df363d7970d143dbba0ae57edb42d1"
 
-[packages."github:flix/museum-giftshop"."2.0.1"]
-toml    = "sha256:0f5ba6185f61c0698a832d285ac415f991ac1eb725045629e36d4a87bc401591"
-fpkg    = "sha256:6209d236f47659ef1520c5986cd9394a413a497784e134c543eec3ff4b525732"
+[packages."github:flix/museum-giftshop"."2.0.2"]
+toml    = "sha256:b67b40bb4df57350af4d51cf4ecdabf3ac9029f2942e3ca1203d5f213527eceb"
+fpkg    = "sha256:c1def3f7e94b19cf5d6974560cfee3e0fefc26c2fd9e3ba98998dd5c894e806f"
 
 [packages."github:flix/museum-restaurant"."2.0.2"]
 toml    = "sha256:008b14c602cd184e6cf898022e51acdf5c7dd861a299c311cb0f3943cd2d2137"
