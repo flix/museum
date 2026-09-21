@@ -1,5 +1,5 @@
 [package]
-version     = "3.0.1"
+version     = "3.0.2"
 flix        = "0.76.2"
 repository  = "github:flix/museum"
 
